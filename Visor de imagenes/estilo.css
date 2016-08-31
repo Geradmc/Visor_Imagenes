@@ -1,0 +1,117 @@
+			body{
+				background:#e3f2ff url('img/fondo3.jpg') no-repeat fixed center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;  
+				border-radius:10px;
+			}
+
+			#todo{
+				width:1160px;
+				margin:0 auto;
+			}
+
+			#cuerpo{
+				float: left;				
+				width:1160px;
+			}
+			
+			#cuerpo #izquierda, #cuerpo #derecha{
+				float:left;
+				position:relative;
+				width:100px;
+				height:500px;
+				cursor:pointer;
+				border-radius:10px;
+			}
+
+			#cuerpo #izquierda{
+				background:url('img/lateralI.jpg') no-repeat center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;  
+				border-radius:10px;
+			}
+
+			#cuerpo #derecha{
+				background:url('img/lateralD.jpg') no-repeat center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;  
+				border-radius:10px;
+			}
+
+			#contenedor{
+				float:left;
+				position:relative;
+				width:960px;
+				height:500px;
+				background:#332332 url("img/fondo.jpg") no-repeat;
+			}
+
+			#image{
+				position:relative;
+			}		
+				
+			.clear{
+				clear:both;
+			}
+
+			#menu {
+				float: left; 
+				width: 1160px;
+				height: 105px;
+				background:#e3f2ff url('img/fondo2.jpg') no-repeat fixed center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;  
+				border-radius:10px;
+			}
+
+			#menu .miniatura{
+				float:left;
+				width: 87px;
+				height:87px;
+				margin:7px;
+				margin-left:10px; 
+				padding:2px;
+				border-radius:10px;
+				border:1px solid #FFF;
+			}
+
+			#menu .miniatura img{
+				position:relative;
+				cursor: pointer;
+				border-radius:10px;
+			}
+			
+			#FI, #FD{
+				float:left;
+				position:relative;
+				width:30px;
+				height:105px;
+				cursor:pointer;
+				margin:0px;
+				padding:0px;
+				border:none;
+			}
+
+			#FI{
+				background:url('img/flechaI.png') no-repeat center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;
+			}
+
+			#FD{
+				background:url('img/flechaD.png') no-repeat center;
+        		-webkit-background-size: cover;
+		        -moz-background-size: cover;
+        		-o-background-size: cover;
+        		background-size: cover;
+			}
